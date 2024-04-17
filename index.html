@@ -2,33 +2,43 @@
 
 <html lang="en-US">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Personal Landing Page</title>
 
         <!-- Load external CSS styles -->
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
         <style>
-            h1, h2, h3, h4, h5, h6 {
-                font-family: "Yeseva One", serif;
+            body {
+                font-family: "DM Serif Display", serif;
                 font-weight: 400;
                 font-style: normal;
                }
             <!-- Option for weight = 100-900 -->
-            body {
+            h1, h2, h3, h4, h5, h6 {
                 font-family: "Work Sans", sans-serif;
                 font-optical-sizing: auto;
                 font-weight: 400;
                 font-style: normal;
-            }
+                }
+            <!--needs: .active color, 
         </style>
 
     </head>
 
     <body>
 
-        <h1>Front End Development Challenge</h1>
+        <h1 id="title">Front End Development Challenge</h1>
+
+        <!-- Navbar -->
+        <ul>
+            <li class="active">About Me</li>
+            <li>Resume</li>
+            <li>Projects</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+        
         <p>I've created this space to practice and strengthen my HTML and CSS skills. My dream is to one day become a UX designer,
         but for now I want to have fun and explore what I can create.<br><br>Part of what I love so much about web development is the 
         mixture of logic and creativity involved. I love finding fonts, color palettes, and web layouts that speak perfectly to a
